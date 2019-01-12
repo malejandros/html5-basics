@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Links in HTML</title>
+  <style>
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: coral;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="https://www.w3schools.com/html/">HTML Course (click here)</a>
+
+  <h3> HTML link colors</h3>
+  <a href="https://google.com">Go to google</a>
+
+  <h3> HTML link target attribute </h3>
+  <!-- 
+    _blank - Opens the linked document in a new window or tab
+    _self - Opens the linked document in the same window/tab as it was clicked (this is default)
+    _parent - Opens the linked document in the parent frame
+    _top - Opens the linked document in the full body of the window
+    framename - Opens the linked document in a named frame
+  -->
+  <a href="https://www.google.com" target="_blank">Google in new tab</a>
+
+  <h3> HTML link title</h3>
+  <a href="https://www.google.com" title="Open Google browser in a new blank tab" target="_blank">Go to google</a>
+</body>
+
+</html>

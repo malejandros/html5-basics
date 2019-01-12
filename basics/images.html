@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML images</title>
+  <!-- <style>
+    img {
+      width: 180px;
+      height: 180px;
+    }
+  </style> -->
+</head>
+
+<body>
+  <h3>Picture</h3>
+  <img src="images/spider.jpg" alt="spiderman image" width="180px" height="180px">
+
+  <h3>Image floating</h3>
+  <p>
+    <img src="images/spider.jpg" alt="spiderman image" style="float: right; width: 90px;height: 90px;">
+    The image will float to the right of text.
+  </p>
+  <p>
+    <img src="images/spider.jpg" alt="spiderman image" style="float: left; width: 90px; height: 90px;">
+    The image will float to the left of text.
+  </p>
+  <br />
+  <br />
+  <br />
+  <h3>Picture element</h3>
+  <picture>
+    <source media="(max-width: 600px)" srcset="images/iron-man.jpg">
+    <source media="(max-width: 800px)" srcset="images/batman.jpg">
+    <img src="images/spider.jpg" alt="spiderman image" style="width: auto">
+  </picture>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tables in HTML</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 2px solid blue;
+      border-collapse: collapse;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    th,
+    td {
+      /* Cell padding specifies the space between the cell content and its borders. */
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <table style="width: 100%">
+    <tr>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Michael</td>
+      <td>Cors</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>Anabell</td>
+      <td>Hernandez</td>
+      <td>33</td>
+    </tr>
+  </table>
+
+  <h3>Cells that Span Many Columns</h3>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Number</th>
+    </tr>
+    <tr>
+      <td>Manuel</td>
+      <td>349340934</td>
+      <td>128912893</td>
+    </tr>
+  </table>
+
+  <h3>Cells that Span Many Rows</h3>
+  <table>
+    <tr>
+      <th>Name:</th>
+      <td>Manuel</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Number:</th>
+      <td>349340934</td>
+    </tr>
+    <tr>
+      <td>128912893</td>
+    </tr>
+  </table>
+
+  <h3>Adding a Caption</h3>
+  <table>
+    <caption>Active users</caption>
+    <tr>
+      <th>Country</th>
+      <th>City</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td>MX</td>
+      <td>Guadalajara</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>USA</td>
+      <td>Seatle</td>
+      <td>450</td>
+    </tr>
+  </table>
+</body>
+
+</html>

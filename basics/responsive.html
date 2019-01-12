@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width= device-width, initial-scale=1.0"> -->
+  <meta name="author" content="chacomoc">
+</head>
+
+<body>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nobis pariatur consequuntur distinctio amet numquam
+    ducimus voluptas aut optio a nesciunt quae totam commodi debitis explicabo vitae, eveniet, molestias ab.</p>
+
+
+  <h3>Using the property width</h3>
+  <img src="images/img_girl.jpg" alt="girl image" style="width: 100%;">
+
+  <h3>Using the property max-width</h3>
+  <img src="images/img_girl.jpg" alt="girl image" style="max-width: 100%; height: auto;">
+
+  <h3>Show different images depending on browser width</h3>
+  <picture>
+    <source srcset="images/img_smallflower.jpg" media="(max-width: 400px)">
+    <source srcset="images/img_flowers.jpg" media="(max-width: 1000px)">
+    <source srcset="images/flowers.jpg">
+    <img src="images/img_flowers.jpg" alt="flowers image">
+  </picture>
+
+  <h3>Responsive Text Size</h3>
+  <h1 style="font-size:10vw;">Hello World</h1>
+
+</body>
+
+</html>

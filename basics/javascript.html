@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML and Javascript</title>
+</head>
+
+<body>
+  <h2>Use Javascript to change text</h2>
+  <p>This example writes "Hello Javascript!" into the HTML element with id="demo".</p>
+  <button onclick="myFunction()">Click me</button>
+  <button onclick="myStyle()">Change style</button>
+  <p id="demo" style="color: blue; font-size: 20px;"></p>
+  <script>
+    document.getElementById("demo").innerHTML = "Hello Javascript!";
+
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello Manuel!";
+    }
+
+    function myStyle() {
+      document.getElementById("demo").style.fontFamily = "Verdana";
+      document.getElementById("demo").style.fontSize = "30px";
+      document.getElementById("demo").style.backgroundColor = "yellow";
+    }
+  </script>
+</body>
+
+</html>
