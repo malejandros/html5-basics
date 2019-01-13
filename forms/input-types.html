@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML input types</title>
+</head>
+
+<body>
+  <form>
+    Name:<br />
+    <input type="text" name="name"><br />
+    Last name: <br />
+    <input type="text" name="lastName"><br />
+    Password: <br />
+    <input type="password" name="password"><br />
+    Gender:<br />
+    <input type="radio" name="gender" value="male">Male <br />
+    <input type="radio" name="gender" value="female" checked>Female <br />
+    OS:<br />
+    <input type="checkbox" name="os1" value="windows"> windows <br />
+    <input type="checkbox" name="os2" value="linux"> linux <br />
+    <input type="checkbox" name="os3" value="ios"> iOS <br />
+    <input type="submit" value="Submit"><br />
+    <input type="reset" value="Clean">
+  </form>
+  <fieldset>
+    <legend>HTML5 input elements</legend>
+    <h2>Input type <code>color</code></h2>
+    <input type="color" name="favcolor">
+
+    <h2>Input type <code>data</code></h2>
+    <input type="date" name="bday">
+
+    <h2>Input type <code>data</code> with min and max date</h2>
+    <input type="date" min="1950-01-01" max="2019-12-31">
+
+    <h2>Input type <code>datetime-local</code></h2>
+    <input type="datetime-loca" name="bday">
+
+    <h2>Input type <code>email</code></h2>
+    Email:<input type="email" name="email">
+
+    <h2>Input type <code>file</code></h2>
+    Select a file<input type="file" name="myFile">
+
+    <h2>Input type <code>month</code></h2>
+    Birthday (month and year):<input type="month" name="monthBday">
+
+    <h2>Input type <code>number</code></h2>
+    Quantity(between 1 and 5):<input type="number" name="quantity" min="1" max="5">
+
+    <h2>Input type <code>range</code></h2>
+    <input type="range" name="points" min="0" max="100">
+
+    <h2>Input type <code>search</code></h2>
+    Search google:
+    <input type="search" name="googlesearch">
+  </fieldset>
+
+</body>
+
+</html>

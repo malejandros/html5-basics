@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Form Elements</title>
+  <style>
+    legend {
+      font-family: Verdana;
+      font-size: 20px;
+      color: darkcyan;
+    }
+  </style>
+</head>
+
+<body>
+  <fieldset>
+    <legend>Select element</legend>
+    <h2>The <code>select</code> element</h2>
+    Select your favorite car:<br />
+    <select name="cars">
+      <option value="volvo">Volvo</option>
+      <option value="volkswagen" selected>Volkswagen</option>
+      <option value="ford">Ford</option>
+      <option value="seat">Seat</option>
+    </select>
+
+    <h2>The <code>select</code> element with <code>size</code> property</h2>
+    Select your favorite car:<br />
+    <select name="cars" size="2">
+      <option value="volvo">Volvo</option>
+      <option value="volkswagen" selected>Volkswagen</option>
+      <option value="ford">Ford</option>
+      <option value="seat">Seat</option>
+    </select>
+
+    <h2>The <code>select</code> element with <code>multiple</code> selections</h2>
+    <select name="cars" size="4" multiple>
+      <option value="volvo">Volvo</option>
+      <option value="volkswagen" selected>Volkswagen</option>
+      <option value="ford">Ford</option>
+      <option value="seat">Seat</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <h2>Size defined by rows and cols</h2>
+    <legend>Textarea element</legend>
+    <textarea name="message" rows="10" cols="30">
+    The dog was playing in the garden
+    </textarea>
+
+    <h2>Size defined by width and height</h2>
+    <textarea name="message" style="width:600px; height: 100px">
+    The dog was playing in the garden
+    </textarea>
+  </fieldset>
+
+  <fieldset>
+    <legend>Button element</legend>
+    <button type="button" onclick="alert('Hola!!!')">Click Me!!!</button>
+  </fieldset>
+
+  <fieldset>
+    <legend>HTML5 Elements</legend>
+    <h2><code>datalist</code> element</h2>
+    <form>
+      <input list="browsers">
+      <datalist id="browsers">
+        <option value="Internet explorer">
+        <option value="Mozilla firefox">
+        <option value="Google Chrome">
+        <option value="Safari">
+        <option value="Opera">
+      </datalist>
+    </form>
+
+    <hr>
+    <h2><code>output</code> element</h2>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+      0
+      <input type="range" id="a" name="a" value="50">
+      100+
+      <input type="range" id="b" name="b" valuer="50">
+      =
+      <output name="x" for="a b"></output>
+    </form>
+  </fieldset>
+
+</body>
+
+</html>

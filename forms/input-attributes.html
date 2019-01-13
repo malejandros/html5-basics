@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML input attributes</title>
+</head>
+
+<body>
+  <h2>The <code>value</code> attribute</h2>
+  <form action="">
+    Name:<input type="text" name="name" value="John">
+  </form>
+
+  <h2>The <code>readonly</code> attribute</h2>
+  <form action="">
+    Country:<input type="text" name="country" value="Mexico" readonly>
+  </form>
+
+  <h2>The <code>disabled</code> attribute</h2>
+  <form action="">
+    University:<input type="text" name="university" value="Universidad de Guadalajara" disabled>
+  </form>
+
+  <h2>The <code>size</code> attribute</h2>
+  <form action="">
+    Lastname:<input type="text" name="lastName" value="McGregor" size="80"><br />
+    Nickname:<input type="text" name="nickname" size="40">
+  </form>
+
+  <h2>The <code>maxlength</code> attribute</h2>
+  <form action="">
+    First name:<input type="text" name="givenname" maxlength="20">
+  </form>
+  <br />
+  <fieldset>
+    <legend>HTML5 Attributes</legend>
+    <h2>The <code>autocomplete</code> attribute</h2>
+    <form action="" autocomplete="on">
+      Name:<input type="text" name="name"><br />
+      Email:<input type="email" name="email" autocomplete="off">
+    </form>
+
+
+    <h2>The <code>autofocus</code> attribute</h2>
+    <form action="">
+      Name:<input type="text" name="name"><br />
+      Email:<input type="email" name="email" autocomplete="off" autofocus>
+    </form>
+  </fieldset>
+</body>
+
+</html>
