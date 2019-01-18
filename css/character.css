@@ -1,0 +1,38 @@
+html {
+  font-size: 18px;
+  font-family: 'Verdana', sans-serif;
+}
+
+#middlemarch {
+  color: blue;
+  text-align: right;
+  list-style-position: inside;
+  list-style-type: lower-roman;
+  line-height: 2rem;
+}
+
+#taletwocities {
+  color: red;
+  list-style-type: lower-alpha;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/*
+
+    *The female characters are in blue text, and the male characters are red
+    *Dorothea Brooke and Sydney Carton are bold text
+    Joshua Rigg and Madame Defarge are italicized
+    The list for Middlemarch is enumerated with roman numerals
+    The list for A Tale of Two Cities is enumerated with alpha characters
+    The list items for Middlemarch are spaced out more
+    The list for Middlemarch has been moved rightward
+    Serif font is not used anywhere on the page
+
+*/

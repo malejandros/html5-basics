@@ -1,0 +1,26 @@
+html {
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Verdana', serif;
+  color: darkred;
+}
+
+
+
+/* 
+space the list items at least 20 pixels from the left edge of the page
+space the list items at least 10 pixels from each other
+center the header
+keep the list at least 50 pixels from the header
+the book titles in the list should not be displayed in a serif font
+the header should use a different font than the list
+the text of header should be dark red
+break the CSS rules into two different .css files. 
+One file should contain any spacing rules, the other any rules governing font faces or coloring. 
+Bind both into your HTML document
+instead of numbers, have the list items indexed by the alphabet
+change the <ol> tag to <ul> (and the closing </ol> to </ul>) and style the list items to have square bullet points
+download this simple triangle shape  and style the list items to use it */

@@ -1,0 +1,22 @@
+html {
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  background-color: darkolivegreen;
+  color: white;
+}
+
+nav {
+  background-color: lightgreen;
+  width: 20em;
+}
+
+img {
+  width: 300px;
+}
+
+article {
+  margin-left: 2rem;
+}

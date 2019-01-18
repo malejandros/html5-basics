@@ -1,0 +1,14 @@
+ol {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-right: 10px;
+  list-style-type: lower-alpha;
+}
+
+ul {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-right: 10px;
+  /* list-style-type: square; */
+  list-style-image: url('/others/images/my_triangle.png');
+}
